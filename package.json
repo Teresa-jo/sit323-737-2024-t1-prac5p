@@ -1,0 +1,17 @@
+{
+  "name": "week3",
+  "version": "1.0.0",
+  "description": "## 1. Step Create a sample node application ``` touch server.js npm init --yes npm install -s express ``` ## 2. Create Dockerfile ``` touch Dockerfile ```",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "winston": "^3.8.2"
+  }
+}
